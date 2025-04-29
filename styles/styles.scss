@@ -1,5 +1,8 @@
 @use './reset';
+@use '../components/components';
 
-body{
-    background-color: red;
+a{
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
 }
