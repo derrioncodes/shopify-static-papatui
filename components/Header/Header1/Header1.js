@@ -5,7 +5,7 @@ export default function Header1() {
             <div className="header-1__logo">
                 <div className="header-1__logo-ratio-box">
                     <a href="#">
-                        <img src="/Papatui_Header_Logo.png" alt=""/>
+                        <img src="/Papatui_Header_Logo.png" alt="" />
                     </a>
                 </div>
             </div>
@@ -68,6 +68,32 @@ export default function Header1() {
                             </a>
 
                         </li>
+                        <li className="secondary-nav__item">
+                            <a className="secondary-nav__link icon-cart-svg" href="#">
+                                <img className="icon-cart" src="/cart-shopping-light.svg" alt="cart" width="20" height="20" />
+                                <div className="cart-count-bubble">
+                                    <span className="item-count">0</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li className="secondary-nav__item">
+                            <a className="secondary-nav__link" href="#">
+                                <i className="fa fa-search"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div className="mobile__header-navs">
+                <nav className="mobile__primary-nav">
+                    <div className="open__mobile__primary-nav__btn">
+                        <i className="fa fa-bars"></i>
+                    </div>
+                </nav>
+
+                <nav className="secondary-nav">
+                    <ul className="secondary-nav__items secondary-nav__actions">
                         <li className="secondary-nav__item">
                             <a className="secondary-nav__link icon-cart-svg" href="#">
                                 <img className="icon-cart" src="/cart-shopping-light.svg" alt="cart" width="20" height="20"/>
