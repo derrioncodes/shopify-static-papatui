@@ -128,16 +128,16 @@ export default function Header1() {
                         </a>
                     </div>
                 </div>
-                {/* <div class="mobile__nav__drawer__main">
+                <div class="mobile__nav__drawer__main">
                     <ul class="mobile__nav__drawer__items">
                         <li class="mobile__nav__drawer__items__item">
                             <a class="mobile__nav__drawer__link" href="/shop-all.html">Shop All</a>
                         </li>
                         <li class="mobile__nav__drawer__items__item">
                             <a class="mobile__nav__drawer__link" href="#">Shop By Category <span class="right-arrow"><i class="fa fa-angle-right"></i></span></a>
-                            <div class="mobile__nav__drawer__subnav-container">
-                                <div class="mobile__nav__drawer__subnav__banner">
-                                    <img src="/assets/mobile-secondary-subnav-banner_completefacecare_scent_uncented__01.png" alt="">
+                            <div class="mobile__nav__drawer__subnav-container mobile-subnav-activeX">
+                                 <div class="mobile__nav__drawer__subnav__banner">
+                                    <img src="/mobile-secondary-subnav-banner_completefacecare_scent_uncented__01.png" alt="" />
                                 </div>
                                 <div class="mobile__nav__drawer__subnav__close-btn">
                                     <i class="fa fa-close"></i>
@@ -167,6 +167,7 @@ export default function Header1() {
                                 </ul>
                             </div>
                         </li>
+                        
                         <li class="mobile__nav__drawer__items__item">
                             <a class="mobile__nav__drawer__link" href="#">Best Sellers</a>
                         </li>
@@ -185,16 +186,16 @@ export default function Header1() {
                     <div class="drawer__footer__social-items">
                         <div class="social-item">
                             <a class="social-icon" href="#">
-                                <img src="/assets/papatui_instagram.png" alt="" srcset="" />
+                                <img src="/papatui_instagram.png" alt="" srcset="" />
                             </a>
                         </div>
                         <div class="social-item">
                             <a class="social-icon" href="#">
-                                <img src="/assets/papatui-tiktok.png" alt="" />
+                                <img src="/papatui-tiktok.png" alt="" />
                             </a>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
             </div>
         </>
