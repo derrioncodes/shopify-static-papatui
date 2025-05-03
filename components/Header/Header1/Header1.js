@@ -113,90 +113,240 @@ export default function Header1() {
                 </div>
             </header>
 
-            <div class="mobile__nav__drawer__bg active"></div>
-            <div class="mobile__nav__drawer__open active">
-                <div class="mobile__nav__drawer__head">
-                    <div class="mobile__nav__drawer__close-btn">
-                        <i class="fa fa-close"></i>
+            <div className="mobile__nav__drawer__bg activeX"></div>
+            <div className="mobile__nav__drawer__open activeX">
+                <div className="mobile__nav__drawer__head">
+                    <div className="mobile__nav__drawer__close-btn">
+                        <i className="fa fa-close"></i>
                     </div>
-                    <div class="mobile__nav__drawer__account">
-                        <a href="#" class="account__link">
-                            <span class="account-icon__link">
-                                <i class="fa fa-user-o"></i>
+                    <div className="mobile__nav__drawer__account">
+                        <a href="#" className="account__link">
+                            <span className="account-icon__link">
+                                <i className="fa fa-user-o"></i>
                             </span>
                             <span>Log in</span>
                         </a>
                     </div>
                 </div>
-                <div class="mobile__nav__drawer__main">
-                    <ul class="mobile__nav__drawer__items">
-                        <li class="mobile__nav__drawer__items__item">
-                            <a class="mobile__nav__drawer__link" href="/shop-all.html">Shop All</a>
+                <div className="mobile__nav__drawer__main">
+                    <ul className="mobile__nav__drawer__items">
+                        <li className="mobile__nav__drawer__items__item">
+                            <a className="mobile__nav__drawer__link" href="/shop-all.html">Shop All</a>
                         </li>
-                        <li class="mobile__nav__drawer__items__item">
-                            <a class="mobile__nav__drawer__link" href="#">Shop By Category <span class="right-arrow"><i class="fa fa-angle-right"></i></span></a>
-                            <div class="mobile__nav__drawer__subnav-container mobile-subnav-activeX">
-                                 <div class="mobile__nav__drawer__subnav__banner">
+                        <li className="mobile__nav__drawer__items__item">
+                            <a className="mobile__nav__drawer__link" href="#">Shop By Category <span className="right-arrow"><i className="fa fa-angle-right"></i></span></a>
+                            <div className="mobile__nav__drawer__subnav-container mobile-subnav-activeX">
+                                <div className="mobile__nav__drawer__subnav__banner">
                                     <img src="/mobile-secondary-subnav-banner_completefacecare_scent_uncented__01.png" alt="" />
                                 </div>
-                                <div class="mobile__nav__drawer__subnav__close-btn">
-                                    <i class="fa fa-close"></i>
+                                <div className="mobile__nav__drawer__subnav__close-btn">
+                                    <i className="fa fa-close"></i>
                                 </div>
-                                <div class="mobile__nav__drawer__subnav__back">
-                                    <button class="subnav__back__btn" type="button">
-                                        <i class="fa fa-angle-left"></i>
+                                <div className="mobile__nav__drawer__subnav__back">
+                                    <button className="subnav__back__btn" type="button">
+                                        <i className="fa fa-angle-left"></i>
                                     </button>
-                                    <div class="subnav__back__title">Shop by Category</div>
+                                    <div className="subnav__back__title">Shop by Category</div>
                                 </div>
-                                <ul class="mobile__nav__drawer__items">
-                                    <li class="mobile__nav__drawer__items__item">
-                                        <a class="mobile__nav__drawer__link" href="#">Body + Hair Care</a>
+                                <ul className="mobile__nav__drawer__items">
+                                    <li className="mobile__nav__drawer__items__item">
+                                        <a className="mobile__nav__drawer__link" href="#">Body + Hair Care</a>
                                     </li>
-                                    <li class="mobile__nav__drawer__items__item">
-                                        <a class="mobile__nav__drawer__link" href="#">Face Care</a>
+                                    <li className="mobile__nav__drawer__items__item">
+                                        <a className="mobile__nav__drawer__link" href="#">Face Care</a>
                                     </li>
-                                    <li class="mobile__nav__drawer__items__item">
-                                        <a class="mobile__nav__drawer__link" href="#">Tattoo Care</a>
+                                    <li className="mobile__nav__drawer__items__item">
+                                        <a className="mobile__nav__drawer__link" href="#">Tattoo Care</a>
                                     </li>
-                                    <li class="mobile__nav__drawer__items__item">
-                                        <a class="mobile__nav__drawer__link" href="#">Antiperspirant + Deodarant</a>
+                                    <li className="mobile__nav__drawer__items__item">
+                                        <a className="mobile__nav__drawer__link" href="#">Antiperspirant + Deodarant</a>
                                     </li>
-                                    <li class="mobile__nav__drawer__items__item">
-                                        <a class="mobile__nav__drawer__link" href="#">Bundles</a>
+                                    <li className="mobile__nav__drawer__items__item">
+                                        <a className="mobile__nav__drawer__link" href="#">Bundles</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
-                        
-                        <li class="mobile__nav__drawer__items__item">
-                            <a class="mobile__nav__drawer__link" href="#">Best Sellers</a>
+
+                        <li className="mobile__nav__drawer__items__item">
+                            <a className="mobile__nav__drawer__link" href="#">Best Sellers</a>
                         </li>
-                        <li class="mobile__nav__drawer__items__item">
-                            <a class="mobile__nav__drawer__link text09" href="#">Store Locator</a>
+                        <li className="mobile__nav__drawer__items__item">
+                            <a className="mobile__nav__drawer__link text09" href="#">Store Locator</a>
                         </li>
-                        <li class="mobile__nav__drawer__items__item">
-                            <a class="mobile__nav__drawer__link text09" href="#">About PAPTUI<sup>&trade;</sup></a>
+                        <li className="mobile__nav__drawer__items__item">
+                            <a className="mobile__nav__drawer__link text09" href="#">About PAPTUI<sup>&trade;</sup></a>
                         </li>
-                        <li class="mobile__nav__drawer__items__item">
-                            <a class="mobile__nav__drawer__link text09" href="#">PAPTUI Cares<sup>&trade;</sup></a>
+                        <li className="mobile__nav__drawer__items__item">
+                            <a className="mobile__nav__drawer__link text09" href="#">PAPTUI Cares<sup>&trade;</sup></a>
                         </li>
                     </ul>
                 </div>
-                <div class="mobile__nav__drawer__footer">
-                    <div class="drawer__footer__social-items">
-                        <div class="social-item">
-                            <a class="social-icon" href="#">
-                                <img src="/papatui_instagram.png" alt="" srcset="" />
+                <div className="mobile__nav__drawer__footer">
+                    <div className="drawer__footer__social-items">
+                        <div className="social-item">
+                            <a className="social-icon" href="#">
+                                <img src="/papatui_instagram.png" alt="" />
                             </a>
                         </div>
-                        <div class="social-item">
-                            <a class="social-icon" href="#">
+                        <div className="social-item">
+                            <a className="social-icon" href="#">
                                 <img src="/papatui-tiktok.png" alt="" />
                             </a>
                         </div>
                     </div>
                 </div>
 
+            </div>
+
+            {/* CART ITEMS  */}
+            <div className="shopping-cart__popup__bg cart-activeX"></div>
+            <div className="shopping-cart__popup cart-activeX">
+                <div className="shopping-cart__wrapper">
+                    <div className="shopping-cart__head">
+                        <h3 className="shopping-cart__title">SHOPPING CART</h3>
+                        <div className="shopping-cart__quantity">(1 item )</div>
+                        <div className="shopping-cart__close-btn">
+                            <i className="fa fa-close"></i>
+                        </div>
+                    </div>
+                    <div className="shopping-cart_items__container">
+                        <div className="shopping-cart_items__content">
+                            <div className="shopping-cart_items__item">
+                                <div className="item__image">
+                                    <img src="/TattooCareBundle_scent_uncented__01.png" alt="" />
+                                </div>
+                                <div className="item__details">
+                                    <div className="item__details__title">
+                                        Tattoo Care Bundle
+                                    </div>
+                                    <div className="item__details__price">
+                                        $20.00
+                                    </div>
+                                    <div className="item__details__micro-copy">
+                                        Unscented
+                                    </div>
+                                </div>
+
+                                <div className="item__quantity">
+                                    <div className="item__quantity__input">
+                                        <button className="input__minus">-</button>
+                                        <input type="number" defaultValue="1" min="0" autoComplete="off" step="1" name="item-quantity" />
+                                        <button className="input__plus">+</button>
+                                    </div>
+                                    <div className="cart-item__remove">
+                                        <i className="fa fa-trash-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="shopping-cart_items__item">
+                                <div className="item__image">
+                                    <img src="/TattooCareBundle_scent_uncented__01.png" alt="" />
+                                </div>
+                                <div className="item__details">
+                                    <div className="item__details__title">
+                                        Tattoo Care Bundle
+                                    </div>
+                                    <div className="item__details__price">
+                                        $20.00
+                                    </div>
+                                    <div className="item__details__micro-copy">
+                                        Unscented
+                                    </div>
+                                </div>
+
+                                <div className="item__quantity">
+                                    <div className="item__quantity__input">
+                                        <button className="input__minus">-</button>
+                                        <input type="number" defaultValue="1" min="0" autoComplete="off" step="1" name="item-quantity" />
+                                        <button className="input__plus">+</button>
+                                    </div>
+                                    <div className="cart-item__remove">
+                                        <i className="fa fa-trash-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="shopping-cart_items__item">
+                                <div className="item__image">
+                                    <img src="/TattooCareBundle_scent_uncented__01.png" alt="" />
+                                </div>
+                                <div className="item__details">
+                                    <div className="item__details__title">
+                                        Tattoo Care Bundle
+                                    </div>
+                                    <div className="item__details__price">
+                                        $20.00
+                                    </div>
+                                    <div className="item__details__micro-copy">
+                                        Unscented
+                                    </div>
+                                </div>
+
+                                <div className="item__quantity">
+                                    <div className="item__quantity__input">
+                                        <button className="input__minus">-</button>
+                                        <input type="number" defaultValue="1" min="0" autoComplete="off" step="1" name="item-quantity" />
+                                        <button className="input__plus">+</button>
+                                    </div>
+                                    <div className="cart-item__remove">
+                                        <i className="fa fa-trash-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="shopping-cart_items__item">
+                                <div className="item__image">
+                                    <img src="/TattooCareBundle_scent_uncented__01.png" alt="" />
+                                </div>
+                                <div className="item__details">
+                                    <div className="item__details__title">
+                                        Tattoo Care Bundle
+                                    </div>
+                                    <div className="item__details__price">
+                                        $20.00
+                                    </div>
+                                    <div className="item__details__micro-copy">
+                                        Unscented
+                                    </div>
+                                </div>
+
+                                <div className="item__quantity">
+                                    <div className="item__quantity__input">
+                                        <button className="input__minus">-</button>
+                                        <input type="number" defaultValue="1" min="0" autoComplete="off" step="1" name="item-quantity" />
+                                        <button className="input__plus">+</button>
+                                    </div>
+                                    <div className="cart-item__remove">
+                                        <i className="fa fa-trash-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div className="shopping-cart__controls">
+                            <div className="shopping-cart__details">
+                                <div className="shopping-cart__order-details">
+                                    <p className="shopping-cart__total">
+                                        <span>Subtotal</span>
+                                        <span className="money">$20.00</span>
+                                    </p>
+                                    <p className="shopping-cart__message">Taxes and shipping calculated at checkout</p>
+                                </div>
+                            </div>
+                            <div className="shopping-cart__actions">
+                                <a className="btn dark-outline view-cart-btn" href="#">View Cart</a>
+                                <a className="btn primary-full check-out-btn" href="#">
+                                    <span className="lock-icon"><i className="fa fa-lock" style={{fontSize:24 + 'px'}}></i></span>
+                                    Check out
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <div className="shopping-cart__empty">
+                        <p className="shopping-cart__empty__title">Your cart is currently empty</p>
+                        <a className="shopping-cart__empty__btn" href="#">SHOP NOW</a>
+                    </div>  */}
+                </div>
             </div>
         </>
 
