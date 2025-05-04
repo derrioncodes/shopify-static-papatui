@@ -1,7 +1,8 @@
-
+import AnnouncementBanner from "@/components/AnnouncementBanner/AnnouncementBanner"
 export default function Header1() {
     return (
         <>
+            <AnnouncementBanner />
             <header className="header header-1 sticky-header">
                 <div className="header-1__logo">
                     <div className="header-1__logo-ratio-box">
@@ -336,7 +337,7 @@ export default function Header1() {
                             <div className="shopping-cart__actions">
                                 <a className="btn dark-outline view-cart-btn" href="#">View Cart</a>
                                 <a className="btn primary-full check-out-btn" href="#">
-                                    <span className="lock-icon"><i className="fa fa-lock" style={{fontSize:24 + 'px'}}></i></span>
+                                    <span className="lock-icon"><i className="fa fa-lock" style={{ fontSize: 24 + 'px' }}></i></span>
                                     Check out
                                 </a>
                             </div>
