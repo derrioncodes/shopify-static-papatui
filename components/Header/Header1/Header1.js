@@ -201,8 +201,8 @@ export default function Header1() {
             </div>
 
             {/* CART ITEMS  */}
-            <div className="shopping-cart__popup__bg cart-active"></div>
-            <div className="shopping-cart__popup cart-active">
+            <div className="shopping-cart__popup__bg cart-activeX"></div>
+            <div className="shopping-cart__popup cart-activeX">
                 <div className="shopping-cart__wrapper">
                     <div className="shopping-cart__head">
                         <h3 className="shopping-cart__title">SHOPPING CART</h3>

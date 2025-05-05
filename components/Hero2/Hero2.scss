@@ -48,8 +48,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-left: 30px;
-        padding-right: 30px;
+        // padding-left: 30px;
+        // padding-right: 30px;
 
         .hero2__text__wrapper{
             z-index: 4;
@@ -138,6 +138,20 @@
             justify-content: right;
         }
 
+        
+
+    }
+
+    @media(max-width: 950px){
+        height: 750px;
+    }
+
+    @media(max-width: 850px){
+        height: 650px;
+    }
+
+    @media(max-width: 480px){
+        height: 600px;
     }
     
 }
