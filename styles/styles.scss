@@ -1,6 +1,11 @@
 @use './reset';
 @use '../components/components';
 
+body{
+    overflow: hidden;
+    color: #212322;
+}
+
 
 a{
     color: inherit;
