@@ -72,6 +72,8 @@
 .hero__wrapper{
     position: relative;
 
+    
+
     .hero-asset{
         width: 100%;
         height: 100%;
@@ -104,9 +106,7 @@
         transform: translateY(-50%);
         z-index: 3;
 
-        &.reverse{
-            right: 0 !important;
-        }
+        
 
         .hero__text__title{
             color: #3e4827;
@@ -168,9 +168,7 @@
         
         z-index: 3;
 
-        &.reverse{
-            left: 150px !important;
-        }
+        
 
         .h1-logo{
             color: white;
@@ -199,9 +197,7 @@
             text-align: right;
             color: #efefef;
 
-            &.text-left{
-                text-align: left !important;
-            }
+            
 
             @media(max-width:1200px){
                 font-size: 30px;
@@ -239,6 +235,23 @@
 
 
         
+    }
+
+    &.reverse{
+        .hero__text__wrapper{
+            right: 0 !important;
+        }
+
+        .hero__text__logo{
+            left: 50px !important;
+
+            .h2-logo{
+                
+                    text-align: left !important;
+                
+            }
+        }
+
     }
     
 }
