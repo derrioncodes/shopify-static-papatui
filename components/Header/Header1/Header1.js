@@ -114,8 +114,8 @@ export default function Header1() {
                 </div>
             </header>
 
-            <div className="mobile__nav__drawer__bg activeX"></div>
-            <div className="mobile__nav__drawer__open activeX">
+            <div className="mobile__nav__drawer__bg active"></div>
+            <div className="mobile__nav__drawer__open active">
                 <div className="mobile__nav__drawer__head">
                     <div className="mobile__nav__drawer__close-btn">
                         <i className="fa fa-close"></i>

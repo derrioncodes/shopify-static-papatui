@@ -32,8 +32,36 @@
                 max-height: 53px;
                 width: 100%;
                 height: 100%;
+
+                @media (max-width: 605px){
+                    height: 100%;
+                    max-height: 35px;
+                    width: 100%;
+                }
+
+                @media (max-width: 500px){
+                    height: 100%;
+                    max-height: 35px;
+                    width: 100%;
+                    max-width: 150px;
+                }
+            }
+
+            @media (max-width: 605px){
+                aspect-ratio: 4.5 / 1;
+                height: 35px;
+            }
+
+            @media (max-width: 500px){
+                aspect-ratio: 4.5 / 1;
+                height: 35px;
+                max-width: 150px;
             }
             
+        }
+
+        @media (max-width: 605px){
+            height: 100%;
         }
     }
 
@@ -131,6 +159,17 @@
                     
 
                 }
+
+                @media (max-width: 1370px){
+                    justify-content: center;
+                }
+            }
+
+            @media (max-width: 1370px){
+                position: static;
+                text-align: center;
+                margin: 0 0 12px;
+                transform: translateY(0);
             }
         }
 
@@ -193,8 +232,32 @@
                 }
 
             }
+
+            @media (max-width: 1370px){
+                position: absolute;
+                top: 30%;
+                transform: translateY(-50%);
+                right: 30px;
+            }
+
+            @media (max-width: 605px){
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 30px;
+            }
             
                 
+        }
+
+        @media (max-width: 1370px){
+            background-color: #d6d2c4;
+            height: auto;
+            padding-bottom: 10px;
+        }
+
+        @media (max-width: 605px){
+            display: none;
         }
         
     }
@@ -202,6 +265,13 @@
     .mobile__header-navs{
         display: none;
 
+        .mobile__primary-nav{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 30px;
+        }
+
         .secondary-nav{
             position: absolute;
             top: 50%;
@@ -264,6 +334,18 @@
             
                 
         }
+
+        @media (max-width: 605px){
+            display: block;
+        }
+    }
+
+    @media (max-width: 1370px){
+        height: auto;
+    }
+
+    @media (max-width: 605px){
+        height: calc(53px + 35px);
     }
        
 }
@@ -340,6 +422,10 @@
                 padding: 20px;
                 cursor: pointer;
             }
+
+            @media (max-width: 500px){
+                left: 0;
+            }
         } 
 
         .mobile__nav__drawer__account{
@@ -363,6 +449,14 @@
                     width: 1.25em;
                     margin-right: .5em;
                 }
+
+                @media (max-width: 500px){
+                    padding-right: 0;
+                }
+            }
+
+            @media (max-width: 500px){
+                right: 18px;
             }
             
         }
@@ -542,6 +636,10 @@
                 }
             }
         }
+
+        @media (max-width: 500px){
+            padding: 0 18px;
+        }
     }
 
     .mobile__nav__drawer__footer{
@@ -573,7 +671,9 @@
                 }
             }
         }
-        
+        @media (max-width: 500px){
+            padding: 0 18px;
+        }
         
     }
 }
@@ -1036,148 +1136,15 @@
                     color: #ffffff;
                 }
             }
-        }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        }   
     }
 }
-
-
-
-
 
 /* MEDIA QUERIES */
-@media (max-width: 1370px) {
-    .header.header-1{
-        height: auto;
 
-        .header-navs{
-            background-color: #d6d2c4;
-            height: auto;
-            padding-bottom: 10px;
-
-            .primary-nav{
-                position: static;
-                text-align: center;
-                margin: 0 0 12px;
-                transform: translateY(0);
-        
-                .primary-nav__items{
-                    justify-content: center;
-                }
-            }
-
-            .secondary-nav{
-                position: absolute;
-                top: 0;
-                top: 30%;
-                transform: translateY(-50%);
-                right: 30px;
-            }
-        }
-    }   
-}
-
-@media (max-width: 605px) {
-
-    .header.header-1{
-        height: calc(53px + 35px);
-
-        .header-1__logo{
-            height: 100%;
-
-            .header-1__logo-ratio-box{
-                aspect-ratio: 4.5 / 1;
-                height: 35px;
-
-                img{
-                    height: 100%;
-                    max-height: 35px;
-                    width: 100%;
-                    
-                }
-                
-            }
-        }
-
-        .header-navs{
-            display: none;
-
-            .secondary-nav{
-                position: absolute;
-                top: 0;
-                top: 50%;
-                transform: translateY(-50%);
-                right: 30px;
-            }
-        }
-
-        .mobile__header-navs{
-            display: block;
-
-            .mobile__primary-nav{
-                position: absolute;
-                top: 0;
-                top: 50%;
-                transform: translateY(-50%);
-                left: 30px;
-            }
-        }
-    }    
-}
 
 @media (max-width: 500px) {
-    .header__logo-ratio-box{
-        aspect-ratio: 4.5 / 1;
-        height: 35px;
-        max-width: 150px;
 
-        img{
-            height: 100%;
-            max-height: 35px;
-            width: 100%;
-            max-width: 150px;
-            
-        }
-        
-    }
-
-    .mobile__nav__drawer__open{
-        .mobile__nav__drawer__head{
-            .mobile__nav__drawer__close-btn{
-                left: 0px;
-            } 
-    
-            .mobile__nav__drawer__account{
-                right: 18px;
-                .account__link{
-                    padding-right: 0;
-                }
-                
-            }
-        }
-        .mobile__nav__drawer__main{
-            padding: 0 18px;
-        }
-
-        .mobile__nav__drawer__footer {
-            padding: 0 18px;
-        }
-    }
 
     .mobile__nav__drawer__items__item .right-arrow{
         right: 0 !important;
