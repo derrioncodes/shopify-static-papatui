@@ -114,8 +114,8 @@ export default function Header1() {
                 </div>
             </header>
 
-            <div className="mobile__nav__drawer__bg active"></div>
-            <div className="mobile__nav__drawer__open active">
+            <div className="mobile__nav__drawer__bg activeX"></div>
+            <div className="mobile__nav__drawer__open activeX">
                 <div className="mobile__nav__drawer__head">
                     <div className="mobile__nav__drawer__close-btn">
                         <i className="fa fa-close"></i>
@@ -201,8 +201,8 @@ export default function Header1() {
             </div>
 
             {/* CART ITEMS  */}
-            <div className="shopping-cart__popup__bg cart-activeX"></div>
-            <div className="shopping-cart__popup cart-activeX">
+            <div className="shopping-cart__popup__bg cart-active"></div>
+            <div className="shopping-cart__popup cart-active">
                 <div className="shopping-cart__wrapper">
                     <div className="shopping-cart__head">
                         <h3 className="shopping-cart__title">SHOPPING CART</h3>
@@ -337,7 +337,7 @@ export default function Header1() {
                             <div className="shopping-cart__actions">
                                 <a className="btn dark-outline view-cart-btn" href="#">View Cart</a>
                                 <a className="btn primary-full check-out-btn" href="#">
-                                    <span className="lock-icon"><i className="fa fa-lock" style={{ fontSize: 24 + 'px' }}></i></span>
+                                    <span className="lock-icon"><i className="fa fa-lock"></i></span>
                                     Check out
                                 </a>
                             </div>

@@ -292,6 +292,10 @@
                     &:hover{
                         color: rgba(33, 35, 34, 0.7);
                     }
+
+                    @media(max-width: 500px){
+                        margin-left: 15px;
+                    }
                 }
 
                 .secondary-nav__link {
@@ -512,6 +516,10 @@
                     height: 1em;
                     line-height: 1em;
                     opacity: .7;
+
+                    @media (max-width: 500px){
+                        right: 0
+                    }
                 }
 
                 .mobile__nav__drawer__subnav-container{
@@ -779,6 +787,10 @@
                 }
                 
             }
+
+            @media (max-width:500px){
+                padding: 0 18px;
+            }
         }
 
         .shopping-cart__empty{
@@ -911,6 +923,11 @@
                             color: #212121b3;
                             font-size: .9rem;
                             line-height: 1.5;
+
+                            @media(max-width: 500px){
+                                margin-top: 8px;
+                                margin-bottom: 10px;
+                            }
                         }
                     }
 
@@ -1033,6 +1050,10 @@
                             cursor: pointer;
                         }
                     }
+
+                    @media(max-width:500px){
+                        padding: 0 18px;
+                    }
                     
                  
                 }
@@ -1083,6 +1104,10 @@
                             margin: -.25em 0;
                             line-height: 1.5;
                         }
+
+                        @media(max-width:500px){
+                            padding: 0 18px;
+                        }
                     }
                 }
 
@@ -1090,6 +1115,23 @@
                     padding: 0 42px;
                     display: flex;
                     gap: 20px;
+
+                    @media(max-width: 500px){
+                        padding: 0 18px;
+
+                        .btn{
+                            font-size: 12px !important;
+                            padding: 9px 18px !important;
+                        }
+                    }
+
+                    @media(max-width:450px){
+                        margin-top: 20px;
+                        flex-direction: column;
+                        gap: 10px;
+                    }
+
+                    
                 }
             }
             
@@ -1112,15 +1154,33 @@
                 transition: all .2s ease-in-out;
             }
             
-            .btn.primary-full {
-                .lock-icon{
-                    width: 1.4em;
-                    height: 1.4em;
-                
-                    display: inline-block;
-                    margin-top: 3px;
+            .btn{
+                &.primary-full {
+                    .lock-icon{
+                        width: 1.4em;
+                        height: 1.4em;
+                    
+                        display: inline-block;
+                        margin-top: 3px;
+
+                        i{
+                            font-size: 24px;
+
+                            @media(max-width: 500px){
+                                font-size: 16px;
+                            }
+                        }
+    
+                        @media(max-width: 500px){
+                            margin-top: 2px;
+    
+                            
+                        }
+                    }
                 }
+
             }
+            
             
             .check-out-btn{
                 &:hover{
@@ -1140,74 +1200,7 @@
     }
 }
 
-/* MEDIA QUERIES */
 
-
-@media (max-width: 500px) {
-
-
-    .mobile__nav__drawer__items__item .right-arrow{
-        right: 0 !important;
-    }
-
-    .header.header-1 .mobile__header-navs .secondary-nav .secondary-nav__items .secondary-nav__item {
-        margin-left: 15px !important;
-    }
-
-    .shopping-cart__popup{
-        
-    
-        .shopping-cart__wrapper{
-    
-            .shopping-cart__head{
-                padding: 0 18px;
-            }
-        }
-
-        .shopping-cart_items__item{
-            padding: 0 18px !important;
-        }
-    }
-
-
-    
-
-    .item__details__micro-copy{
-        margin-top: 8px !important;
-        margin-bottom: 10px !important;
-    }
-
-
-    .shopping-cart__order-details{
-        padding: 0 18px !important;
-    }
-
-    .shopping-cart__actions{
-        padding: 0 18px !important;
-    }
-
-    .shopping-cart__actions .btn{
-        font-size: 12px !important;
-        padding: 9px 18px !important;
-    }
-
-    .shopping-cart__actions .check-out-btn .lock-icon {
-        margin-top: 2px !important;
-    }
-
-    .shopping-cart__actions .check-out-btn .lock-icon i{
-        font-size: 16px !important;
-    }
-    
-}
-
-@media (max-width: 450px){
-    .shopping-cart__popup .shopping-cart__wrapper .shopping-cart_items__container .shopping-cart__controls .shopping-cart__actions{
-        margin-top: 20px;
-        flex-direction: column;
-        gap: 10px;
-    }
-}
 
 
 
