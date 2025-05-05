@@ -1,26 +1,29 @@
 @use './reset';
 @use '../components/components';
 
-body{
-    overflow: hidden;
+body {
+    // overflow: hidden;
     color: #212322;
 }
 
 
-a{
+a {
     color: inherit;
     text-decoration: none;
     cursor: pointer;
 }
 
-section{
+section {
     margin-bottom: 54px;
     height: 100%;
 }
 
-.btn{
+.btn {
     width: 300px;
     max-width: 100%;
+
+    // width: 100%;
+    // max-width: 300px;
 
     display: inline-block;
     vertical-align: middle;
@@ -37,4 +40,37 @@ section{
 
     transition: all .2s ease-in-out;
 
+}
+
+
+.title-headline__underline {
+    text-transform: uppercase;
+    font-weight: 400;
+    position: relative;
+    padding-bottom: calc(9px + 3px);
+
+    &::after {
+        content: "";
+        width: 36px;
+        height: 3px;
+        background: #db864e;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    &.--underline-center::after {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &.--underline-fit-content {
+        width: fit-content;
+        border-bottom: 2px solid #db864e;
+
+        // Override the after when this modifier is active
+        &::after {
+            display: none !important;
+        }
+    }
 }

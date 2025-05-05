@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import MainLayout from "@/components/layouts/MainLayout";
 import Hero1 from "@/components/Hero1/Hero1";
 import Hero2 from "@/components/Hero2/Hero2";
+import ImageText__Columns from "@/components/ImageText__Columns/ImageText__Columns";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,6 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero2/>
+      <ImageText__Columns/>
     </MainLayout>
   );
 }
