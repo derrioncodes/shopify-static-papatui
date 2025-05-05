@@ -7,7 +7,7 @@ export default function Hero1() {
         <section className="hero-section">
             <div className="hero-carousel-container">
                 <div className="hero-carousel-wrapper">
-                    <div className="hero__wrapper reverseX">
+                    <div className="hero__wrapper --reverseX --align-center">
                         <div className="hero-asset">
                             <img src="/Dwayne_Johnson_Papatui_Home_Page_Skincare_Main.png" alt="" />
                         </div>
@@ -17,10 +17,10 @@ export default function Hero1() {
                                 <a href="#">Shop skincare</a>
                             </div>
                         </div>
-                        <div className="hero__text__logo">
+                        {/* <div className="hero__text__logo">
                             <h1 className="h1-logo">PAPATUI</h1>
                             <h2 className="h2-logo">TAKE BETTER CARE</h2>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="hero__wrapper">
                         <div className="hero-asset">
