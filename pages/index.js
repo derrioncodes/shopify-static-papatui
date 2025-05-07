@@ -5,6 +5,7 @@ import Hero1 from "@/components/Hero1/Hero1";
 import Hero2 from "@/components/Hero2/Hero2";
 import ImageText__Columns from "@/components/ImageText__Columns/ImageText__Columns";
 import MultiColumns from "@/components/MultiColumns/MultiColumns";
+import Collections1 from "@/components/Collections1/Collections1";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +29,7 @@ export default function Home() {
       <Hero2/>
       <ImageText__Columns/>
       <MultiColumns/>
+      <Collections1/>
     </MainLayout>
   );
 }
