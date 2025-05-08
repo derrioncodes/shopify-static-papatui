@@ -9,6 +9,8 @@ import Collections1 from "@/components/Collections1/Collections1";
 // import CollectionsSlider from "@/components/CollectionsSlider/CollectionsSlider";
 import Reviews from "@/components/Reviews/Reviews";
 import EmailCapture from "@/components/EmailCapture/EmailCapture";
+import Products from "@/components/Products/Products";
+
 import Footer from "@/components/Footer/Footer";
 
 
@@ -31,13 +33,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero2/>
+      {/* <Hero2/>
       <ImageText__Columns/>
       <MultiColumns/>
       <Collections1/>
       <Reviews/>
       <EmailCapture/>
-      
+       */}
+
+       <Products/>
       
       
     </MainLayout>
