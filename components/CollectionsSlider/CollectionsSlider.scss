@@ -24,16 +24,17 @@
 
     .collections-slider__wrapper{
 
-        // display: grid;
-        // grid-template-columns: repeat(4, 1fr);
-        // row-gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 20px;
         .collections-slider__product{
             padding: 8px;
         
             position: relative;
 
-            .product-card__top{
-                .product__label{
+            .collections-slider-product-card__top{
+                display: block;
+                .collections-slider-product__label{
                     position: absolute;
                     display: flex;
                     flex-direction: column;
@@ -44,13 +45,13 @@
                     text-align: right;
                     align-items: flex-end;
     
-                    .product__label-li{
+                    .collections-slider-product__label-li{
                         width: fit-content;
                         margin-bottom: 4px;
                         background-color: #e5e5e5;
                         padding: 2px 10px;
     
-                        .product__label-text{
+                        .collections-slider-product__label-text{
                             color: #000000;
                             letter-spacing: 1px;
                             text-transform: uppercase;
@@ -59,7 +60,7 @@
                     }
                 }
 
-                .product__image{
+                .collections-slider-product__image{
                     width: 100%;
 
                     img{
@@ -69,40 +70,44 @@
                     }
                 }
 
-                .product__button{
-                    &.btn{
-                        width: 100%;
-                        border: 1px solid #212322;
-                        margin-top: 12px;
+                
 
-                        &:hover{
-                            background-color: #212121;
-                            color: #ffffff;
-                        }
+            }
+
+            .collections-slider-product__button{
+                display: block;
+                &.btn{
+                    width: 100%;
+                    border: 1px solid #212322;
+                    margin-top: 12px;
+
+                    &:hover{
+                        background-color: #212121;
+                        color: #ffffff;
                     }
-
                 }
 
             }
 
-            .product__details{
+            .collections-slider-product__details{
                 margin-top: 12px;
+                display: block;
 
-                .product__micro-copy{
+                .collections-slider-product__micro-copy{
                     line-height: 1.3;
                     color: rgba(33, 35, 34, 0.55);
                     margin-bottom: 6px;
                     font-size: .9rem;
                 }
 
-                .product__title{
+                .collections-slider-product__title{
                     line-height: 1.3;
                     font-size: 16px;
                     letter-spacing: 1px;
                     font-weight: 400;
                 }
 
-                .product__price{
+                .collections-slider-product__price{
                     margin-top: 6px;
                     font-weight: 700;
                 }
