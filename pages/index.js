@@ -7,6 +7,7 @@ import ImageText__Columns from "@/components/ImageText__Columns/ImageText__Colum
 import MultiColumns from "@/components/MultiColumns/MultiColumns";
 import Collections1 from "@/components/Collections1/Collections1";
 // import CollectionsSlider from "@/components/CollectionsSlider/CollectionsSlider";
+import Reviews from "@/components/Reviews/Reviews";
 
 
 const geistSans = Geist({
@@ -32,6 +33,7 @@ export default function Home() {
       <ImageText__Columns/>
       <MultiColumns/>
       <Collections1/>
+      <Reviews/>
       
       
       
