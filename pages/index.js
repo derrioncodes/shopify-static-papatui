@@ -8,6 +8,8 @@ import MultiColumns from "@/components/MultiColumns/MultiColumns";
 import Collections1 from "@/components/Collections1/Collections1";
 // import CollectionsSlider from "@/components/CollectionsSlider/CollectionsSlider";
 import Reviews from "@/components/Reviews/Reviews";
+import EmailCapture from "@/components/EmailCapture/EmailCapture";
+import Footer from "@/components/Footer/Footer";
 
 
 const geistSans = Geist({
@@ -34,6 +36,7 @@ export default function Home() {
       <MultiColumns/>
       <Collections1/>
       <Reviews/>
+      <EmailCapture/>
       
       
       
