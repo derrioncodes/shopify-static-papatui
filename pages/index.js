@@ -34,6 +34,7 @@ export default function Home() {
       <Collections1/>
       
       
+      
     </MainLayout>
   );
 }

@@ -67,6 +67,7 @@ section {
     &.--underline-fit-content {
         width: fit-content;
         border-bottom: 2px solid #db864e;
+        padding-bottom: 0;
 
         // Override the after when this modifier is active
         &::after {

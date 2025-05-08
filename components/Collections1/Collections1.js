@@ -2,7 +2,7 @@ export default function Collections1() {
     return (
         <section className="collections1__section">
             <div className="collections1__container two-colX three-col four-colX">
-                <div className="collections1__title">
+                <div className="collections1__title title-headline__underline --underline-fit-content">
                     Bestsellers
                 </div>
                 <div className="collections1__wrapper">

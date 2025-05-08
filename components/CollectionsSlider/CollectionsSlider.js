@@ -1,8 +1,8 @@
 export default function CollectionsSlider() {
     return (
         <section className="collections-slider__section">
-            <div className="collections-slider__container two-colX three-col four-colX">
-                <div className="collections-slider__title">
+            <div className="collections-slider__container">
+                <div className="collections-slider__title title-headline__underline --underline-fit-content">
                     Bestsellers
                 </div>
                 <div className="collections-slider__wrapper">
