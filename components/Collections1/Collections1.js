@@ -1,117 +1,101 @@
 export default function Collections1() {
     return (
-        <section class="collections1__section">
-            <div class="collections1__container">
-                <div class="collections1__title">
+        <section className="collections1__section">
+            <div className="collections1__container two-colX three-col four-colX">
+                <div className="collections1__title">
                     Bestsellers
                 </div>
-                <div class="collections1__wrapper">
-                    <div class="collections1__product">
-                        <div class="product-card__top">
-                            <a href="#">
-                                <ul class="product__label">
-                                    <li class="product__label-li">
-                                        <p class="product__label-text">Best Seller</p>
-                                    </li>
-                                </ul>
-                                <div class="product__image">
-                                    <a href="#">
-                                        <img src="/papa_facecare_eyepatch__01_896295c6-22d6-4781-8c70-48a1f856e5be.png" alt=""/>
-                                    </a>
-                                </div>
-                                <div class="product__button btn">
-                                    <a href="#">Add to cart</a>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="product__details">
-                            <a href="#">
-                                <p class="product__micro-copy">Unscented</p>
-                                <h3 class="product__title">Complete Face Care Bundle</h3>
-                                <p class="product__price">$53.00</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="collections1__product">
-                        <div class="product-card__top">
-                            <ul class="product__label">
-                                <li class="product__label-li">
-                                    <p class="product__label-text">Best Seller</p>
+                <div className="collections1__wrapper">
+                    <div className="collections1__product">
+                        <a href="#" className="collections1-product-card__top">
+                            <ul className="collections1-product__label">
+                                <li className="collections1-product__label-li">
+                                    <p className="collections1-product__label-text">Best Seller</p>
                                 </li>
                             </ul>
-                            <div class="product__image">
-                                <a href="#">
-                                    <img src="/papa_facecare_eyepatch__01_896295c6-22d6-4781-8c70-48a1f856e5be.png" alt=""/>
-                                </a>
-                                
+                            <div className="collections1-product__image">
+                                <img src="/papa_facecare_eyepatch__01_896295c6-22d6-4781-8c70-48a1f856e5be.png" alt="" />
                             </div>
-                            <div class="product__button btn">
-                                <a href="#">Add to cart</a>
-                            </div>
-                        </div>
-                        <div class="product__details">
-                            <a href="#">
-                                <p class="product__micro-copy">Sandalwood Suede</p>
-                                <h3 class="product__title">Take Better Care Bundle</h3>
-                                <p class="product__price">$48.00</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="collections1__product">
-                        <div class="product-card__top">
-                            {/* <ul class="product__label">
-                                <li class="product__label-li">
-                                    <p class="product__label-text">Best Seller</p>
-                                </li>
-                            </ul> */}
-                            <div class="product__image">
-                                <a href="#">
-                                    <img src="/papa_facecare_eyepatch__01_896295c6-22d6-4781-8c70-48a1f856e5be.png" alt=""/>
-                                </a>
-                                
-                            </div>
-                            <div class="product__button btn">
-                                <a href="#">Add to cart</a>
-                            </div>
-                        </div>
-                        <div class="product__details">
-                            <a href="#">
-                                <p class="product__micro-copy">Unscented</p>
-                                <h3 class="product__title">Complete Face Care Bundle</h3>
-                                <p class="product__price">$53.00</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="collections1__product">
-                        <div class="product-card__top">
-                            {/* <ul class="product__label">
-                                <li class="product__label-li">
-                                    <p class="product__label-text">Best Seller</p>
-                                </li>
-                            </ul> */}
-                            <div class="product__image">
-                                <a href="#">
-                                    <img src="/papa_facecare_eyepatch__01_896295c6-22d6-4781-8c70-48a1f856e5be.png" alt=""/>
-                                </a>
-                                
-                            </div>
-                            <div class="product__button btn">
-                                <a href="#">Add to cart</a>
-                            </div>
-                        </div>
-                        <div class="product__details">
-                            <a href="#">
-                                <p class="product__micro-copy">Unscented</p>
-                                <h3 class="product__title">Complete Face Care Bundle</h3>
-                                <p class="product__price">$53.00</p>
-                            </a>
-                        </div>
+                        </a>
+                        <a href="#" className="collections1-product__button btn">
+                                Add to cart
+                        </a>
+                        <a href="#" className="collections1-product__details">
+                            <p className="collections1-product__micro-copy">Unscented</p>
+                            <h3 className="collections1-product__title">Complete Face Care Bundle</h3>
+                            <p className="collections1-product__price">$53.00</p>
+
+                        </a>
                     </div>
 
+                    <div className="collections1__product">
+                        <a href="#" className="collections1-product-card__top">
+                            <ul className="collections1-product__label">
+                                <li className="collections1-product__label-li">
+                                    <p className="collections1-product__label-text">Best Seller</p>
+                                </li>
+                            </ul>
+                            <div className="collections1-product__image">
+                                <img src="/papa_facecare_eyepatch__01_896295c6-22d6-4781-8c70-48a1f856e5be.png" alt="" />
+                            </div>
+                        </a>
+                        <a href="#" className="collections1-product__button btn">
+                                Add to cart
+                        </a>
+                        <a href="#" className="collections1-product__details">
+                            <p className="collections1-product__micro-copy">Unscented</p>
+                            <h3 className="collections1-product__title">Complete Face Care Bundle</h3>
+                            <p className="collections1-product__price">$53.00</p>
+
+                        </a>
+                    </div>
+
+                    <div className="collections1__product">
+                        <a href="#" className="collections1-product-card__top">
+                            <ul className="collections1-product__label">
+                                <li className="collections1-product__label-li">
+                                    <p className="collections1-product__label-text">Best Seller</p>
+                                </li>
+                            </ul>
+                            <div className="collections1-product__image">
+                                <img src="/papa_facecare_eyepatch__01_896295c6-22d6-4781-8c70-48a1f856e5be.png" alt="" />
+                            </div>
+                        </a>
+                        <a href="#" className="collections1-product__button btn">
+                                Add to cart
+                        </a>
+                        <a href="#" className="collections1-product__details">
+                            <p className="collections1-product__micro-copy">Unscented</p>
+                            <h3 className="collections1-product__title">Complete Face Care Bundle</h3>
+                            <p className="collections1-product__price">$53.00</p>
+
+                        </a>
+                    </div>
+
+                    <div className="collections1__product">
+                        <a href="#" className="collections1-product-card__top">
+                            <ul className="collections1-product__label">
+                                <li className="collections1-product__label-li">
+                                    <p className="collections1-product__label-text">Best Seller</p>
+                                </li>
+                            </ul>
+                            <div className="collections1-product__image">
+                                <img src="/papa_facecare_eyepatch__01_896295c6-22d6-4781-8c70-48a1f856e5be.png" alt="" />
+                            </div>
+                        </a>
+                        <a href="#" className="collections1-product__button btn">
+                                Add to cart
+                        </a>
+                        <a href="#" className="collections1-product__details">
+                            <p className="collections1-product__micro-copy">Unscented</p>
+                            <h3 className="collections1-product__title">Complete Face Care Bundle</h3>
+                            <p className="collections1-product__price">$53.00</p>
+
+                        </a>
+                    </div>
                 </div>
-                {/* <div class="slides-numbers">
-                    <span class="slides-number-active">01</span> / <span class="total"></span>
-                </div> */}
+                
+
             </div>
         </section>
     )
