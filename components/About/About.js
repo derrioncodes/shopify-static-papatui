@@ -1,3 +1,7 @@
+import EmailCapture from "../EmailCapture/EmailCapture"
+import GridColumns from "../GridColumns/GridColumns"
+
+
 export default function About() {
     return (
         <>
@@ -17,6 +21,10 @@ export default function About() {
                 <p>TAKE BETTER CARE™. A men's care line founded by Dwayne "The Rock" Johnson.</p>
             </div>
         </section>
+
+        <GridColumns/>
+
+        <EmailCapture/>
         
         </>
         
