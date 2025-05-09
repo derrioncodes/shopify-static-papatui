@@ -10,6 +10,8 @@ import Collections1 from "@/components/Collections1/Collections1";
 import Reviews from "@/components/Reviews/Reviews";
 import EmailCapture from "@/components/EmailCapture/EmailCapture";
 import Products from "@/components/Products/Products";
+import About from "@/components/About/About";
+import GridColumns from "@/components/GridColumns/GridColumns";
 
 import Footer from "@/components/Footer/Footer";
 
@@ -41,7 +43,9 @@ export default function Home() {
       <EmailCapture/>
        */}
 
-       <Products/>
+      {/* <Products/> */}
+      <About/>
+      <GridColumns/>
       
       
     </MainLayout>
