@@ -1,0 +1,131 @@
+// .temp-container {
+//     width: 940px;
+//     margin: 0 auto;
+// }
+
+
+
+
+.accordion-item {
+    padding: 1em 0;
+    border-bottom: 1px solid rgba(33, 35, 34, 0.2);
+
+    &:first-of-type {
+        border-top: 1px solid rgba(33, 35, 34, 0.2);
+    }
+
+
+    .accordion-header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 9px;
+        cursor: pointer;
+
+        position: relative;
+
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 400;
+            margin-right: 15px;
+            line-height: 1.6;
+        }
+
+        .x-icon {
+            position: relative;
+            width: 15px;
+            height: 15px;
+            cursor: pointer;
+            transform: rotate(45deg); // Default rotation
+            transition: transform 0.3s ease;
+
+            &::before,
+            &::after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                // width: 100%;
+                width: 15px;
+                height: 1px;
+                background-color: #000;
+                transform-origin: center;
+            }
+
+            &::before {
+                transform: translate(-50%, -50%) rotate(45deg);
+            }
+
+            &::after {
+                transform: translate(-50%, -50%) rotate(-45deg);
+            }
+        }
+
+        &.active {
+            .x-icon {
+                transform: rotate(90deg); // Rotates when accordion is active
+            }
+        }
+    }
+
+    .accordion-content {
+        display: none;
+        // padding: 10px;
+
+        // padding: 1.5em 0 .5em;
+
+        // margin-bottom: 1rem;
+        // line-height: 2;
+        // font-weight: 300;
+        // font-size: 16px;
+        // letter-spacing: 1px;
+
+        .text {
+            letter-spacing: 1px;
+            font-size: 15px;
+            line-height: 2;
+            color: #212322 !important;
+            font-weight: 400 !important;
+        }
+
+        ul {
+            list-style: disc;
+            margin-left: 2rem;
+
+            li {
+                margin-bottom: .4rem;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+
+
+}
+
+// .accordion-content {
+//     padding: 1.5em 0 .5em;
+
+//     margin-bottom: 1rem;
+//     line-height: 2;
+//     font-weight: 300;
+//     font-size: 16px;
+//     letter-spacing: 1px;
+
+//     ul {
+//         list-style: disc;
+//         margin-left: 2rem;
+
+//         li {
+//             margin-bottom: .4rem;
+
+//             &:last-child {
+//                 margin-bottom: 0;
+//             }
+//         }
+//     }
+// }
