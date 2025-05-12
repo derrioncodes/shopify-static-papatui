@@ -24,7 +24,7 @@ export default function Hero1() {
                     </div>
                     <div className="hero__wrapper">
                         <div className="hero-asset">
-                            <video src="/papatui-hero-video.mp4" controlsX autoPlay muted loop></video>
+                            <video src="/papatui-hero-video.mp4" autoPlay muted loop></video>
                         </div>
                         <div className="hero__text__wrapper">
                             <h2 className="hero__text__title">It's time to take better care</h2>
