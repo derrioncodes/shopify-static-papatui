@@ -1,4 +1,4 @@
-
+import Accordian from "../Accordian/Accordian"
 
 export default function SingleProduct() {
     return (
@@ -71,6 +71,8 @@ export default function SingleProduct() {
                         <p>Refresh and hydrate skin with hard working ingredients. This smoothing and soothing formula helps to whisk away dead skin cells and blemish-causing oil without harsh scrubbing or alcohol. Minimizes appearance of pores, enhances skin & improves areas of dry, flaky skin.</p>
                         <p>TAKE BETTER CARE<sup>&trade;</sup></p>
                     </div>
+
+                    <Accordian/>
                     {/* <div className="accordion">
                         <div className="accordion-item">
                             <div className="accordion-header">
