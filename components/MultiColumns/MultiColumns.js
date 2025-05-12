@@ -8,7 +8,7 @@ export default function MultiColumns() {
                     </div>
                     <div className="column_item__text">
                         <h3>FORMULATED WITHOUT SULFATES</h3>
-                        <p>Sulfates can compromise the balance of your skin. Our cleansers don't have them.</p>
+                        <p>Sulfates can compromise the balance of your skin. Our cleansers don&apos;t have them.</p>
                     </div>
                 </div>
 
@@ -28,7 +28,7 @@ export default function MultiColumns() {
                     </div>
                     <div className="column_item__text">
                         <h3>PHTHALATE FREE</h3>
-                        <p>Phthalates, aka Potential Hormone Disruptors. You don't need them, so we don't use them.</p>
+                        <p>Phthalates, aka Potential Hormone Disruptors. You don&apos;t need them, so we don&apos;t use them.</p>
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@ export default function MultiColumns() {
                     </div>
                     <div className="column_item__text">
                         <h3>VEGAN</h3>
-                        <p>You'll never find animal-derived ingredients in our products. Just premium formulations at the right price</p>
+                        <p>You&apos;ll never find animal-derived ingredients in our products. Just premium formulations at the right price</p>
                     </div>
                 </div> 
             </div>

@@ -6,7 +6,7 @@ import Hero2 from "@/components/Hero2/Hero2";
 import ImageText__Columns from "@/components/ImageText__Columns/ImageText__Columns";
 import MultiColumns from "@/components/MultiColumns/MultiColumns";
 import Collections1 from "@/components/Collections1/Collections1";
-// import CollectionsSlider from "@/components/CollectionsSlider/CollectionsSlider";
+import CollectionsSlider from "@/components/CollectionsSlider/CollectionsSlider";
 import Reviews from "@/components/Reviews/Reviews";
 import EmailCapture from "@/components/EmailCapture/EmailCapture";
 import Products from "@/components/Products/Products";

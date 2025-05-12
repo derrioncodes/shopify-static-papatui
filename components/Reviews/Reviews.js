@@ -22,7 +22,7 @@ export default function Reviews() {
                         </div>
                     </div>
                     <div className="single-review_title">ENHANCING TATTOO STICK</div>
-                    <div className="single-review_text">My tattoos haven't looked so good!! Even My 30 year old tatts look fresh! Outstanding product!!!</div>
+                    <div className="single-review_text">My tattoos haven&apos;t looked so good!! Even My 30 year old tatts look fresh! Outstanding product!!!</div>
                     <div className="single-review_customer">Michael B.</div>
                 </div>
                 <div className="single-review">

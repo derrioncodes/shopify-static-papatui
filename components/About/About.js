@@ -18,7 +18,7 @@ export default function About() {
             </div>
 
             <div className="text">
-                <p>TAKE BETTER CARE™. A men's care line founded by Dwayne "The Rock" Johnson.</p>
+                <p>TAKE BETTER CARE™. A men&apos;s care line founded by Dwayne &quot;The Rock&quot; Johnson.</p>
             </div>
         </section>
 

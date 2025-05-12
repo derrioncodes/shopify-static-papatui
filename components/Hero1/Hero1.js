@@ -12,7 +12,7 @@ export default function Hero1() {
                             <img src="/Dwayne_Johnson_Papatui_Home_Page_Skincare_Main.png" alt="" />
                         </div>
                         <div className="hero__text__wrapper">
-                            <h2 className="hero__text__title">It's time to take better care</h2>
+                            <h2 className="hero__text__title">It&apos;s time to take better care</h2>
                             <div className="hero__text__btn btn">
                                 <a href="#">Shop skincare</a>
                             </div>
@@ -27,7 +27,7 @@ export default function Hero1() {
                             <video src="/papatui-hero-video.mp4" autoPlay muted loop></video>
                         </div>
                         <div className="hero__text__wrapper">
-                            <h2 className="hero__text__title">It's time to take better care</h2>
+                            <h2 className="hero__text__title">It&apos;s time to take better care</h2>
                             <div className="hero__text__btn btn">
                                 <a href="#">Shop skincare</a>
                             </div>

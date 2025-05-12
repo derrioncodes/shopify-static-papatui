@@ -3,7 +3,7 @@ export default function ImageText__Columns() {
         <section className="image-text-column__section">
             <div className="image-text-column__container reverseColumnsX">
                 <div className="image-text-column__text">
-                    <h2 className="image-text-column__title title-headline__underline --underline-centerX --underline-fit-contentX">DERMATOLOGIST TESTED MEN'S CARE THAT WORKS</h2>
+                    <h2 className="image-text-column__title title-headline__underline --underline-centerX --underline-fit-contentX">DERMATOLOGIST TESTED MEN&apos;S CARE THAT WORKS</h2>
                     <p className="image-text-column__p">Science backed formulations built for performance</p>
                     <div className="image-text-column__btn">
                         <a className="btn" href="#">Shop skincare</a>

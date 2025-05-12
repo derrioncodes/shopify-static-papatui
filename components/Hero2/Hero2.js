@@ -14,7 +14,7 @@ export default function Hero2() {
 
                 <div className="hero2__content-container  --align-leftX  --align-rightX">
                     <div className="hero2__text__wrapper --align-text-centerX">
-                        <h2 className="hero2__text__title">It's time to take better care</h2>
+                        <h2 className="hero2__text__title">It&apos;s time to take better care</h2>
                         <div className="hero2__text__btn btn">
                             <a href="#">Shop skincare</a>
                         </div>
