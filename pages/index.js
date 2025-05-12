@@ -14,6 +14,7 @@ import About from "@/components/About/About";
 import GridColumns from "@/components/GridColumns/GridColumns";
 import FAQ from "@/components/FAQ/FAQ";
 import Accordian from "@/components/Accordian/Accordian";
+import SingleProduct from "@/components/SingleProduct/SingleProduct";
 
 import Footer from "@/components/Footer/Footer";
 
@@ -47,9 +48,11 @@ export default function Home() {
 
       {/* <Products/> */}
       {/* <About/> */}
-      <FAQ/>
+      {/* <FAQ/> */}
 
       {/* <Accordian/> */}
+
+      <SingleProduct/>
       
       
       
